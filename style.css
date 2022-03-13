@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background: #2C2C2C;
+}
+
+.container1{
+    width: 375px;
+    height: 66px;
+    background: #9657A5;
+    margin: 0 auto;
+}
+
+.container1 h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 18px;
+    color: #F4F4F4;
+    padding: 24px;
+    text-align: center;
+}
+
+.container2{
+    margin: 0 auto;
+    width: 375px;
+    background: #E5E5E5;
+    padding-bottom: 32px;
+}
+
+.container2 .paragraph{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 23px;   
+    padding-left: 24px;
+    color: #555555;
+}
+
+.container2 select{
+    width: 327px;
+    height: 48px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    margin-top: 6px;
+    margin-left: 24px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+    outline: none;
+    appearance: none;
+    padding: 15px 16px;
+    color: #555555;
+    cursor: pointer;
+}
+
+.container2 input{
+    width: 327px;
+    height: 48px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    margin-top: 6px;
+    margin-left: 24px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18px;
+    outline: none;
+    padding: 15px 16px;
+    color: #555555;
+    cursor: pointer;
+}
+
+#button{
+    display: block;
+    width: 327px;
+    height: 48px;
+    border-radius: 25px;
+    margin: 24px 24px 36px 24px;
+    background: #CDD728;
+    border: none;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #F4F4F4;
+    cursor: pointer;
+}
+
+#button:active {
+    opacity: 0.6;
+}
+
+.container3{
+    width: 327px;
+    height: 289px;
+    border: 1px solid #9657A5;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container3 img{
+    width: 44px;
+    height: 44px;
+}
+
+.container3 img:nth-of-type(1){
+    margin-top: 12px;
+}
+
+.container3 img:nth-of-type(2){
+    width: 35px;
+    height: 49.81px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 13.19px;
+
+}
+
+.container3 p{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+    margin-top: 4px;
+}
+
+.container3 .paragraph-bold{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 18px;
+    color: #555555;
+    margin-top: 3px;
+}
